@@ -24,8 +24,8 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
-  // base: '/Repository 的名稱/'
-  base: '/web-layout-training-vite/',
+  // base: '/Repository 的名稱/' 這裡沒有改，圖片跟路徑就會導不出來。
+  base: '/web-vite/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
